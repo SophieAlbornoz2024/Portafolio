@@ -35,21 +35,17 @@
   .navbar-custom > .container {
     width: 90%;
   }
-
   .home-title {
     font-size: 36px;
   }
-
   .navbar-white .navbar-toggler {
     color: #1c2f50 !important;
   }
-
   .navbar-custom .navbar-nav li.active a,
-.navbar-custom .navbar-nav li a:hover,
-.navbar-custom .navbar-nav li a:active {
+  .navbar-custom .navbar-nav li a:hover,
+  .navbar-custom .navbar-nav li a:active {
     color: #2fb4ae !important;
   }
-
   .navbar-toggler {
     font-size: 24px;
     margin-top: 0px;
@@ -58,15 +54,12 @@
   .navbar-toggler:focus {
     box-shadow: none;
   }
-
   .carousel-indicators {
     right: 0;
   }
-
   .logo .logo-light {
     display: none;
   }
-
   .logo .logo-dark {
     display: inline-block;
   }
@@ -169,7 +162,6 @@
   .navbar .navbar-nav .nav-item .nav-link {
     padding: 12px 15px;
   }
-
   .navbar-collapse {
     max-height: 430px;
     padding: 0;
@@ -180,16 +172,13 @@
     background: #ffffff;
     box-shadow: 0px 8px 8px -6px rgba(28, 47, 80, 0.08);
   }
-
   .navbar {
     background-color: #ffffff !important;
     padding: 16px 0;
   }
-
   .nav-sticky.navbar {
     padding: 16px 0;
   }
-
   .nav-white .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 0.8);
   }
@@ -343,8 +332,8 @@ body[data-layout-mode=dark] .nav-sticky .navbar-brand span, body[data-layout-mod
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
   position: relative;
 }
 
@@ -596,30 +585,24 @@ hr {
     box-shadow: 0px 3px 10px 0px rgba(28, 47, 80, 0.08);
     color: #ffffff !important;
   }
-
   .navbar-toggler i {
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #1c2f50;
   }
-
   .bg-home {
     height: auto;
   }
-
   .nav-sticky.navbar-custom .navbar-nav li a {
     color: #ffffff !important;
   }
-
   .nav-sticky .logo {
     color: #ffffff !important;
   }
-
   .navbar-custom > .container {
     width: 90%;
   }
-
   .clients-img {
     display: none;
   }
@@ -1763,7 +1746,6 @@ body[data-layout-mode=dark] .breadcrumb {
     transform: rotate(270deg);
     top: 50%;
   }
-
   .home-2 .welcome-text {
     right: -20% !important;
     opacity: 0.05;
@@ -1784,27 +1766,21 @@ body[data-layout-mode=dark] .breadcrumb {
   .home-2 .welcome-text p {
     font-size: 150px !important;
   }
-
   .home-5 .my-process {
     display: none;
   }
-
   .home-3 {
     padding: 200px 0;
   }
-
   .home, .home-2, .home-4, .home-5 {
     padding: 150px 0;
   }
-
   .top-home {
     padding-top: 150px;
   }
-
   .bottom-item .border-topup {
     display: none;
   }
-
   .home-4 .my-name, .home-4 .contact, .home-4 .work, .home-4 .cretifid, .home-4 .text, .home-4 .bottom-text, .home-4 .experience {
     position: relative;
     left: 0;
@@ -2391,7 +2367,7 @@ body[data-layout-mode=dark] .contact .custom-form .form-group .form-control {
 
 .footer {
   background-color: #1c2f50;
-  padding: 120px 0;
+  padding: 120px 0 40px !important;
 }
 .footer .footer-text li {
   margin: 10px 0;
@@ -2469,4 +2445,6 @@ body[data-layout-mode=dark] .footer .linkedin-box::before {
 }
 body[data-layout-mode=dark] .bottom-footer {
   background-color: #343f4b !important;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
